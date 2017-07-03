@@ -1,0 +1,74 @@
+.make-room  {
+  margin-top: 150px;
+}
+
+.make-space {
+  margin-top: 40px;
+}
+
+
+.block1-html  {
+  text-align:center;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/9c/73/c7/9c73c785bae40ed7e316908e9d6acc35.jpg);
+  background-size: 1200px 470px;
+  height: 350px; width: 1200px;
+  
+
+}
+
+.block1-html h1 {
+font-size: 70px;
+color: white;
+font-family: Verana;
+padding-top: 17%;
+
+}
+
+
+
+
+.block2-html {
+  text-align: center;
+  background-color: white;
+  height: 150px; width: 1200px;
+  margin-top: 10px;
+
+}
+
+
+.block2-html p {
+  font-size: 25px;
+  font-family: Inconsolata;
+  color: black;
+}
+
+.block3-html {
+  height: 150px; width: 1200px;
+  margin-top: 10px;
+  background-color: white;
+
+}
+.button  {
+width: 30%;
+margin: 1%;
+height:120px;
+background-color: grey;
+}
+
+.icon {
+  font-style: Pacifico;
+  font-size: 20px;
+  color: white;
+}
+
+
+.footer {
+background-color: grey;
+}
+.html1-zeroblock {
+  float:right;
+  height: 600px;
+  width: 500px;
+  background-image:
+url(https://s-media-cache-ak0.pinimg.com/originals/b8/78/dd/b878dd1d3b0c67e21c5610fbb3610bfd.jpg);
+}
