@@ -3,7 +3,7 @@
 }
 
 .make-space {
-  margin-top: 40px;
+  margin-top: 150px;
 }
 
 
@@ -11,7 +11,7 @@
   text-align:center;
   background-image: url(https://s-media-cache-ak0.pinimg.com/originals/9c/73/c7/9c73c785bae40ed7e316908e9d6acc35.jpg);
   background-size: 1200px 470px;
-  height: 350px; width: 1200px;
+  height: 350px; width: 100%;
 
 
 }
@@ -25,12 +25,10 @@ padding-top: 17%;
 }
 
 
-
-
 .block2-html {
   text-align: center;
   background-color: white;
-  height: 150px; width: 1200px;
+  height: 150px; width: 100%;
   margin-top: 10px;
 
 }
@@ -43,7 +41,7 @@ padding-top: 17%;
 }
 
 .block3-html {
-  height: 150px; width: 1200px;
+  height: 150px; width: 100%;
   margin-top: 10px;
   background-color: white;
 
@@ -61,131 +59,16 @@ background-color: grey;
   color: white;
 }
 
-
-full {
-   width: 100%;
-}
-.gap {
-height: 30px;
-width: 100%;
-clear: both;
-display: block;
-}
 .footer {
-background: #EDEFF1;
-height: auto;
-padding-bottom: 30px;
-position: relative;
-width: auto;
-border-bottom: 1px solid #CCCCCC;
-border-top: 1px solid #DDDDDD;
-}
-.footer p {
-margin: 0;
-}
-.footer img {
-max-width: 100%;
-}
-.footer h3 {
-border-bottom: 1px solid #BAC1C8;
-color: #54697E;
-font-size: 18px;
-font-weight: 600;
-line-height: 27px;
-padding: 40px 0 10px;
-text-transform: uppercase;
-}
-.footer ul {
-font-size: 13px;
-list-style-type: none;
-margin-left: 0;
-padding-left: 0;
-margin-top: 15px;
-color: #7F8C8D;
-}
-.footer ul li a {
-padding: 0 0 5px 0;
-display: block;
-}
-.footer a {
-color: #78828D
-}
-.supportLi h4 {
-font-size: 20px;
-font-weight: lighter;
-line-height: normal;
-margin-bottom: 0 !important;
-padding-bottom: 0;
-}
-.newsletter-box input#appendedInputButton {
-background: #FFFFFF;
-display: inline-block;
-float: left;
-height: 30px;
-clear: both;
-width: 100%;
-}
-.newsletter-box .btn {
-border: medium none;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
--o-border-radius: 3px;
--ms-border-radius: 3px;
-border-radius: 3px;
-display: inline-block;
-height: 40px;
-padding: 0;
-width: 100%;
-color: #fff;
-}
-
-.newsletter-box {
-overflow: hidden;
-}
-
-.bg-gray {
-background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
-box-shadow: 0 1px 0 #B4B3B3;
-}
-
-.social li {
-background: none repeat scroll 0 0 #B5B5B5;
-border: 2px solid #B5B5B5;
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
--o-border-radius: 50%;
--ms-border-radius: 50%;
-border-radius: 50%;
-float: left;
-height: 36px;
-line-height: 36px;
-margin: 0 8px 0 0;
-padding: 0;
 text-align: center;
-width: 36px;
-transition: all 0.5s ease 0s;
--moz-transition: all 0.5s ease 0s;
--webkit-transition: all 0.5s ease 0s;
--ms-transition: all 0.5s ease 0s;
--o-transition: all 0.5s ease 0s;
+background-color: LightGrey;
+width: 100%;
 }
 
-.social li:hover {
-transform: scale(1.15) rotate(360deg);
--webkit-transform: scale(1.1) rotate(360deg);
--moz-transform: scale(1.1) rotate(360deg);
--ms-transform: scale(1.1) rotate(360deg);
--o-transform: scale(1.1) rotate(360deg);
+.friends {
+  margin-top: 25px;
+
 }
-
-.social li a {
-color: #EDEFF1;
-}
-
-
-
-
-
 
 
 .html1-zeroblock {
@@ -194,4 +77,65 @@ color: #EDEFF1;
   width: 500px;
   background-image:
 url(https://s-media-cache-ak0.pinimg.com/originals/b8/78/dd/b878dd1d3b0c67e21c5610fbb3610bfd.jpg);
+}
+
+.html1-firstblock  {
+  font-weight: bold;
+}
+
+.html-secondblock {
+  font-weight: bold;
+}
+
+.block0-html3 {
+  float:right;
+  height: 600px;
+  width: 500px;
+  background-image:
+url(http://img.huffingtonpost.com/asset/scalefit_600_noupscale/594d3288290000bc0f3b0d64.jpeg);
+}
+
+.block1-html3 {
+  height: 350px;
+  width: 800px;
+  font-family: Inconsolata;
+}
+
+
+.block1-html3 h1  {
+  font-size: 70px;
+}
+
+.block1-html3 p {
+  font-size: 25px;
+}
+.clear  {
+  clear: both;
+}
+
+
+#bold {
+  font-weight: bold;
+}
+
+.block2-html3  {
+  float: left;
+  height: 100px;
+  width: 300px;
+  margin-top: 20px;
+
+}
+@media screen and (max-width: 900px) {
+.block3-html {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+.footer {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+.make-space {
+    margin-top: 200px;
 }
