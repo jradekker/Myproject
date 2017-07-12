@@ -123,8 +123,17 @@ url(http://img.huffingtonpost.com/asset/scalefit_600_noupscale/594d3288290000bc0
   height: 100px;
   width: 300px;
   margin-top: 20px;
-
 }
+
+.register_button {
+font-family: Inconsolata;
+font-size: 15px;
+}
+#email  {
+  background-color: #e6e6ff;
+}
+
+
 @media screen and (max-width: 900px) {
 .block3-html {
     display: none;
